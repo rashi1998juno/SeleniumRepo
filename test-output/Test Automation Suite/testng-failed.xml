@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test Automation Suite]">
+  <test thread-count="5" name="Amazon Functional Testing(failed)">
+    <parameter name="Url" value="https://www.amazon.in/"/>
+    <classes>
+      <class name="com.qa.testscript.TC_AmazonSearch_001">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="SearchItem"/>
+        </methods>
+      </class> <!-- com.qa.testscript.TC_AmazonSearch_001 -->
+    </classes>
+  </test> <!-- Amazon Functional Testing(failed) -->
+</suite> <!-- Failed suite [Test Automation Suite] -->

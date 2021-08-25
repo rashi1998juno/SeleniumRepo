@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Test_Automation_Suite">
+              <span class="suite-name border-passed">Test Automation Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Test_Automation_Suite">
+                    <span>C:\Users\HP\Desktop\Selenium_java\MavenProject1.Selenium\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Test_Automation_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Test_Automation_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Test_Automation_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Test_Automation_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Test_Automation_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Test_Automation_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Test_Automation_Suite" class="hide-methods passed suite-Test_Automation_Suite"> (hide)</a> <!-- hide-methods passed suite-Test_Automation_Suite -->
+                      <a href="#" panel-name="suite-Test_Automation_Suite" class="show-methods passed suite-Test_Automation_Suite"> (show)</a> <!-- show-methods passed suite-Test_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Test_Automation_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation_Suite" title="com.qa.testscript.TC_AmazonSearch_001" hash-for-method="SearchItem(Appliances, Washing machines)">SearchItem(Appliances, Washing machines)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation_Suite" title="com.qa.testscript.TC_AmazonSearch_001" hash-for-method="SearchItem(Furniture, Wooden Tables)">SearchItem(Furniture, Wooden Tables)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation_Suite" title="com.qa.testscript.TC_AmazonSearch_001" hash-for-method="SearchItem(Books, Da vinci code)">SearchItem(Books, Da vinci code)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation_Suite" title="com.qa.testscript.TC_AmazonSearch_001" hash-for-method="SearchItem(Electronics, Mobile)">SearchItem(Electronics, Mobile)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test_Automation_Suite" title="com.qa.testscript.TC_AmazonSearch_001" hash-for-method="SearchItem(Baby, Bathing products)">SearchItem(Baby, Bathing products)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Test_Automation_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Test_Automation_Suite" class="panel Test_Automation_Suite">
+          <div class="suite-Test_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.testscript.TC_AmazonSearch_001</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchItem(Appliances, Washing machines)">
+                  </a> <!-- SearchItem(Appliances, Washing machines) -->
+                  <span class="method-name">SearchItem</span>
+                  <span class="parameters">(Appliances, Washing machines)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchItem(Furniture, Wooden Tables)">
+                  </a> <!-- SearchItem(Furniture, Wooden Tables) -->
+                  <span class="method-name">SearchItem</span>
+                  <span class="parameters">(Furniture, Wooden Tables)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchItem(Books, Da vinci code)">
+                  </a> <!-- SearchItem(Books, Da vinci code) -->
+                  <span class="method-name">SearchItem</span>
+                  <span class="parameters">(Books, Da vinci code)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchItem(Electronics, Mobile)">
+                  </a> <!-- SearchItem(Electronics, Mobile) -->
+                  <span class="method-name">SearchItem</span>
+                  <span class="parameters">(Electronics, Mobile)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchItem(Baby, Bathing products)">
+                  </a> <!-- SearchItem(Baby, Bathing products) -->
+                  <span class="method-name">SearchItem</span>
+                  <span class="parameters">(Baby, Bathing products)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Automation_Suite-class-passed -->
+        </div> <!-- panel Test_Automation_Suite -->
+        <div panel-name="test-xml-Test_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\HP\Desktop\Selenium_java\MavenProject1.Selenium\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Test Automation Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qa.utility.Reporting&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Amazon Functional Testing&quot;&gt;
+    &lt;parameter name=&quot;Url&quot; value=&quot;https://www.amazon.in/&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.testscript.TC_AmazonSearch_001&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Amazon Functional Testing --&gt;
+&lt;/suite&gt; &lt;!-- Test Automation Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Test_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Test Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Amazon Functional Testing (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Test_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Test Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Test_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Test Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Test_Automation_Suite');
+function tableData_Test_Automation_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'SearchItem')
+data.setCell(0, 2, 'com.qa.testscript.TC_AmazonSearch_001')
+data.setCell(0, 3, 7682);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'SearchItem')
+data.setCell(1, 2, 'com.qa.testscript.TC_AmazonSearch_001')
+data.setCell(1, 3, 6927);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'SearchItem')
+data.setCell(2, 2, 'com.qa.testscript.TC_AmazonSearch_001')
+data.setCell(2, 3, 6523);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'SearchItem')
+data.setCell(3, 2, 'com.qa.testscript.TC_AmazonSearch_001')
+data.setCell(3, 3, 6425);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'SearchItem')
+data.setCell(4, 2, 'com.qa.testscript.TC_AmazonSearch_001')
+data.setCell(4, 3, 5440);
+window.suiteTableData['Test_Automation_Suite']= { tableData: data, tableDiv: 'times-div-Test_Automation_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 32 seconds</span>
+              <div id="times-div-Test_Automation_Suite">
+              </div> <!-- times-div-Test_Automation_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Test_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Test Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SearchItem(Appliances, Washing machines)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">item is searched</span>
+                <span class="reporter-method-output">Amazon Basics 6 Place Setting Dishwasher, Silver</span>
+                <span class="reporter-method-output">Panasonic 6 Kg 5 Star Fully-Automatic Top Loading Washing Machine (NA-F60LF1HRB, Grey)</span>
+                <span class="reporter-method-output">Samsung 6.5 kg Fully-Automatic Top Loading Washing Machine (WA65A4002VS/TL, Imperial Silver, Diamond Drum)</span>
+                <span class="reporter-method-output">Whirlpool 7 Kg 5 Star Semi-Automatic Top Loading Washing Machine (SUPERB ATOM 7.0, Grey Dazzle, TurboScrub Technology)</span>
+                <span class="reporter-method-output">Samsung 6.0 Kg Inverter 5 Star Fully-Automatic Front Loading Washing Machine (WW60R20GLMA/TL, White, Hygiene Steam)</span>
+                <span class="reporter-method-output">Whirlpool 6.5 Kg 5 Star Fully-Automatic Top Loading Washing Machine with In-Built Heater (STAINWASH PRO H 6.5, Shiny Grey)</span>
+                <span class="reporter-method-output">Samsung 7.2 kg Semi-Automatic Top Loading Washing Machine (WT725QPNDMPXTL, White and Blue, Center Jet Pulsator)</span>
+                <span class="reporter-method-output">Whirlpool 7.5 Kg 5 Star Semi-Automatic Top Loading Washing Machine (ACE 7.5 SUPREME, Grey Dazzle)</span>
+                <span class="reporter-method-output">Whirlpool 7 Kg 5 Star Royal Plus Fully-Automatic Top Loading Washing Machine (WHITEMAGIC ROYAL PLUS 7.0, Grey, Hard Water Wash)</span>
+                <span class="reporter-method-output">Samsung 6.5 Kg 5 Star Inverter Fully-Automatic Top Loading Washing Machine (WA65T4262GG/TL, Light Grey, Wobble technology)</span>
+                <span class="reporter-method-output">Godrej 6 Kg 5 Star Fully-Automatic Top Loading Washing Machine (WTEON 600 AD 5.0 ROGR, Grey)</span>
+                <span class="reporter-method-output">LG 6.5 Kg 5 Star Smart Inverter Fully-Automatic Top Loading Washing Machine (T65SKSF4Z, Middle Free Silver)</span>
+                <span class="reporter-method-output">IFB 6 kg 5 Star Fully-Automatic Front Loading Washing Machine (Diva Aqua BX, White|Black matte, Aqua Energie,Crescent Moon Drum,Laundry Add,In-built heater )</span>
+                <span class="reporter-method-output">LG 6.5 Kg 4 Star Semi-Automatic Top Loading Washing Machine (P6510NBAY, Dark Blue, Rat Away Technology)</span>
+                <span class="reporter-method-output">Samsung 6.0 Kg 5 Star Semi-Automatic Top Loading Washing Machine (WT60R2000LL/TL, Light Grey, Center jet technology)</span>
+                <span class="reporter-method-output">Amazon Basics 6 Kg Fully Automatic Top Loading Washing Machine, Grey</span>
+                <span class="reporter-method-output">Samsung 7.0 Kg Fully-Automatic Top Loading Washing Machine (WA70T4560FM/TL,Magnolia Plum)</span>
+                <span class="reporter-method-output">IFB 7 Kg 5 Star Fully-Automatic Front Loading Washing Machine (Neo Diva BX, White, 3D Wash Technology,CradleWash,Aqua Energie,In-built heater)</span>
+                <span class="reporter-method-output">Whirlpool 7 Kg 5 Star Royal Fully-Automatic Top Loading Washing Machine (WHITEMAGIC ROYAL 7.0 GENX, Grey, Hard Water Wash)</span>
+                <span class="reporter-method-output">Intex 6.2 kg Semi-Automatic Top Loading Washing Machine (WMS62TL, White and Maroon)</span>
+                <span class="reporter-method-output">Onida 6.5 kg Washer Only (WS65WLPT1LR Liliput, Lava Red)</span>
+                <span class="reporter-method-output">Panasonic 6.5 kg 5 Star Semi-Automatic Top Loading Washing Machine (NA-W65E5ARB, Blue, Powerful Motor)</span>
+                <span class="reporter-method-output">LG 7 Kg 4 Star Semi-Automatic Top Loading Washing Machine (P7020NGAY, Dark Gray, Collar scrubber)</span>
+                <span class="reporter-method-output">Whirlpool 7.2 Kg Semi-Automatic Top Loading Washing Machine (ACE SUPREME PLUS 7.2, Coral Red, Ace Wash Station)</span>
+                <span class="reporter-method-output">Panasonic 7 Kg 5 Star Fully-Automatic Top Loading Washing Machine (NA-F70LF1HRB, Grey)</span>
+                <span class="reporter-method-output">Godrej 6.5 Kg 5 Star Fully-Automatic Top Loading Washing Machine (WTEON 650 AD 5.0 ROGR, Grey, Acu Wash Drum)</span>
+                <span class="reporter-method-output">AmazonBasics 6.5 kg Fully-Automatic Top Load Washing Machine (Grey/Black, Full Metal body, LED Display)</span>
+                <span class="reporter-method-output">LG 8.0 Kg 5 Star Inverter Fully-Automatic Front Loading Washing Machine (FHM1208ZDL, Luxury Silver, Direct Drive Technology)</span>
+                <span class="reporter-method-output">LG 6.5 Kg 5 Star Smart Inverter Fully-Automatic Top Loading Washing Machine (T65SNSF1Z, Middle Free Silver, TurboDrum)</span>
+                <span class="reporter-method-output">Samsung 6.5 Kg Fully-Automatic Top Loading Washing Machine (WA65A4022FS/TL, Imperial Silver, Wobble technology)</span>
+                <span class="reporter-method-output">Bosch Original Square Frame Pedestal for Washing Machine (Powder Coated Steel Stand - White)</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SearchItem(Furniture, Wooden Tables)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">item is searched</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SearchItem(Books, Da vinci code)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">item is searched</span>
+                <span class="reporter-method-output">AgniBaan: Guardians of the Fire Chamber</span>
+                <span class="reporter-method-output">The Da Vinci Code: (Robert Langdon Book 2)</span>
+                <span class="reporter-method-output">The Da Vinci Code (Abridged Edition)</span>
+                <span class="reporter-method-output">Angels and Demons + The Da Vinci Code</span>
+                <span class="reporter-method-output">DA VINCI CODE</span>
+                <span class="reporter-method-output">The Da Vinci Code: A Novel: 2 (Robert Langdon)</span>
+                <span class="reporter-method-output">The Da Vinci Code</span>
+                <span class="reporter-method-output">Davinci Code</span>
+                <span class="reporter-method-output">The Davinci Code</span>
+                <span class="reporter-method-output">The Complete Novels of Sherlock Holmes</span>
+                <span class="reporter-method-output">Original Sherlock Holmes Books Set Of 4 By Sir Arthur Conan Doyle, The Adventures Of Sherlock Holmes Book, The Case Book Of Sherlock Holmes, Sherlock Holmes His Last Bow, The Return Of Sherlock Holmes</span>
+                <span class="reporter-method-output">THE DA VINCI CODE : A QUEST FOR ANSWERS (HINDI)</span>
+                <span class="reporter-method-output">The Code Breaker</span>
+                <span class="reporter-method-output">Cracking the Da Vinci Code: The Unauthorized Guide to the Facts Behind the Fiction</span>
+                <span class="reporter-method-output">Inferno: (Robert Langdon Book 4)</span>
+                <span class="reporter-method-output">World’s Greatest Classics (Box Set of 4 Books)</span>
+                <span class="reporter-method-output">Angels and Demons: (Robert Langdon Book 1)</span>
+                <span class="reporter-method-output">To Kill A Mockingbird: 50th Anniversary Edition: 60th Anniversary Edition</span>
+                <span class="reporter-method-output">The Silent Patient: The record-breaking, multimillion copy Sunday Times bestselling thriller and Richard & Judy book club pick</span>
+                <span class="reporter-method-output">World’s Greatest Classics (Box Set of 4 Books)</span>
+                <span class="reporter-method-output">Most Influential Classics of All Time (Box Set of 4 Books)</span>
+                <span class="reporter-method-output">Panchatantra Ki 101 Kahaniyan: Collection Of Witty Moral Stories For Kids For Personality Development In Hindi</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SearchItem(Electronics, Mobile)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">item is searched</span>
+                <span class="reporter-method-output">Samsung Galaxy M31 (Ocean Blue, 6GB RAM, 128GB Storage)</span>
+                <span class="reporter-method-output">Redmi 9A (Nature Green, 2GB RAM, 32GB Storage) | 2GHz Octa-core Helio G25 Processor | 5000 mAh Battery</span>
+                <span class="reporter-method-output">realme C11 (2021) (Cool Blue, 2GB RAM, 32GB Storage) with No Cost EMI/Additional Exchange Offers</span>
+                <span class="reporter-method-output">Samsung Galaxy M31 (Space Black, 6GB RAM, 128GB Storage)</span>
+                <span class="reporter-method-output">realme C11 (2021) (Cool Grey, 2GB RAM, 32GB Storage) with No Cost EMI/Additional Exchange Offers</span>
+                <span class="reporter-method-output">Tecno Spark 7T(Jewel Blue, 4GB RAM, 64GB Storage) 6000 mAh Battery| 48 MP AI Dual Rear Camera</span>
+                <span class="reporter-method-output">Redmi 9 Power (Mighty Black, 6GB RAM, 128GB Storage) - 6000mAh Battery |FHD+ Screen| 48MP Quad Camera | Snapdragon 662 Processor | Alexa Hands-Free Capable</span>
+                <span class="reporter-method-output">Redmi 9A (Nature Green, 3GB Ram, 32GB Storage) | 2GHz Octa-core Helio G25 Processor</span>
+                <span class="reporter-method-output">Panasonic Eluga I8 (Black, 3GB RAM, 32GB Storage)</span>
+                <span class="reporter-method-output">Panasonic Eluga i7 (2GB RAM, 16GB Storage, Finger Print Sensor, 4000mAh Battery) (Black)</span>
+                <span class="reporter-method-output">Redmi 9A (Midnight Black 2GB RAM 32GB Storage) | 2GHz Octa-core Helio G25 Processor | 5000 mAh Battery</span>
+                <span class="reporter-method-output">itel A47 (Cosmic Purple, 2GB RAM, 32GB Storage, 5.5'' HD+ IPS Display), L5505</span>
+                <span class="reporter-method-output">itel A23 Pro Jio (Lake Blue, 1GB RAM, 8 GB Storage, 5'' Bright Display) (L5006C)</span>
+                <span class="reporter-method-output">realme narzo 30 (Racing Blue, 6GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers</span>
+                <span class="reporter-method-output">Maplin Ismart I1 Reeno (2 GB 16 GB) 5.0 inch Touchscreen Smartphone Mist Gold</span>
+                <span class="reporter-method-output">Vivo Y20A 2021 (Nebula Blue, 3GB RAM, 64GB Storage) with No Cost EMI/Additional Exchange Offers</span>
+                <span class="reporter-method-output">PHILIPS 1.8 inch Display, 32 MB Storage, 0.8 MP Camera, 1000 Phone Book Memory, VGA Video Recording, FM GSM Feature Phone (Black)</span>
+                <span class="reporter-method-output">Nokia 225 4G Dual SIM Feature Phone with Long Battery Life, Camera, Multiplayer Games, and Premium Finish – Black Colour</span>
+                <span class="reporter-method-output">Redmi Note 9 (Pebble Grey, 4GB RAM 64GB Storage) - 48MP Quad Camera & Full HD+ Display</span>
+                <span class="reporter-method-output">Redmi 9 (Sporty Orange, 4GB RAM, 64GB Storage) | 2.3GHz Mediatek Helio G35 Octa core Processor</span>
+                <span class="reporter-method-output">Samsung Guru 1200 (GT-E1200, Indigo Blue)</span>
+                <span class="reporter-method-output">Oppo A31 (Mystery Black, 6GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers</span>
+                <span class="reporter-method-output">Oppo A31 (Fantasy White, 6GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers</span>
+                <span class="reporter-method-output">Nokia 5310 Dual SIM Feature Phone with MP3 Player, Wireless FM Radio and Rear Camera (White/Red)</span>
+                <span class="reporter-method-output">Redmi 9 Power (Mighty Black 4GB RAM 64GB Storage) - 6000mAh Battery |FHD+ Screen | 48MP Quad Camera | Alexa Hands-Free Capable</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SearchItem(Baby, Bathing products)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">item is searched</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Test_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Test_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.testscript.TC_AmazonSearch_001</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(https://www.amazon.in/)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">SearchItem(Books, Da vinci code)</span>
+                <span class="method-start">14157 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SearchItem(Electronics, Mobile)</span>
+                <span class="method-start">20741 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SearchItem(Furniture, Wooden Tables)</span>
+                <span class="method-start">27169 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SearchItem(Baby, Bathing products)</span>
+                <span class="method-start">32611 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SearchItem(Appliances, Washing machines)</span>
+                <span class="method-start">40296 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">47227 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
